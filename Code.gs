@@ -14,7 +14,7 @@ function doPost(e) {
     console.error(err)
 
   } finally {
-    return ContentService.createTextOutput("OK").setMimeType(ContentService.MimeType.TEXT)
+    return HtmlService.createHtmlOutput()
   }
   
 }
